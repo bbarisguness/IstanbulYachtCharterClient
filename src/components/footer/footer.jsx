@@ -11,6 +11,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaPhoneAlt,
+  FaInstagram
 } from "react-icons/fa";
 import contactData from "@/data/contactData.json"
 
@@ -71,25 +72,25 @@ const Footer = function () {
                   <div className="ltn__social-media mt-20">
                     <ul>
                       <li>
-                        <Link href="#" title="Facebook">
+                        <Link href="https://www.facebook.com/Istanbul-Yacht-Charter-111833137345274" target='_blank' title="Facebook">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" title="Twitter">
+                        <Link href="https://twitter.com/yacht_istanbul" target='_blank' title="Twitter">
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" title="Linkedin">
-                          <FaLinkedin />
+                        <Link href="https://www.instagram.com/yachtcharteristanbul" target='_blank' title="Instagram">
+                          <FaInstagram />
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="#" title="Youtube">
                           <FaYoutube />
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

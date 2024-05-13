@@ -6,18 +6,18 @@ const HeaderSocialLinks = function () {
     <div className="ltn__social-media">
       <ul>
         <li>
-          <Link href="#">  <FaFacebookF /> </Link>
+          <Link href="https://www.facebook.com/Istanbul-Yacht-Charter-111833137345274" target='_blank'>  <FaFacebookF /> </Link>
         </li>
         <li>
-          <Link href="#">  <FaTwitter /> </Link>
+          <Link href="https://twitter.com/yacht_istanbul" target='_blank'>  <FaTwitter /> </Link>
         </li>
 
         <li>
-          <Link href="#">  <FaInstagram /> </Link>
+          <Link href="https://www.instagram.com/yachtcharteristanbul" target='_blank'>  <FaInstagram /> </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="#">  <FaDribbble /> </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
