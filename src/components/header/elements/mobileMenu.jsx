@@ -126,22 +126,22 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__social-media-2">
             <ul>
               <li>
-                <Link href="#">
+                <Link href="https://www.facebook.com/Istanbul-Yacht-Charter-111833137345274" target='_blank'>
                   <FaFacebookF />
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href="https://twitter.com/yacht_istanbul" target='_blank'>
                   <FaTwitter />
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">
                   <FaLinkedin />
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="#">
+                <Link href="https://www.instagram.com/yachtcharteristanbul" target='_blank'>
                   <FaInstagram />
                 </Link>
               </li>
