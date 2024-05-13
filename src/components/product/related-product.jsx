@@ -57,7 +57,7 @@ const RelatedProduct = ({
               alt={`${productData.title}`}
             />
           </Link>
-          <div className="real-estate-agent">
+          {/* <div className="real-estate-agent">
             <div className="agent-img">
               <Link href={`/${baseUrl}/${slug}`}>
                 <img
@@ -66,7 +66,7 @@ const RelatedProduct = ({
                 />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="product-info">
           {/* <div className="product-badge">
