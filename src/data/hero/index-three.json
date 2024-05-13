@@ -1,0 +1,25 @@
+[
+    {
+      "subtitle": "Real Estate Agency",
+      "Title": "ISTANBUL YACHT CHARTER",
+      "Desc": "Live your dream vacation on board one of our istanbul yachts for charter. Whatever your desired size, features and amenities, we have the yacht charter vessel for you.",
+      "icon": "FaHome",
+      "bgImage": "slide-4.webp",
+      "id": "1",
+      "buttonText": "Make An Enquiry",
+      "variationCenter": true,
+      "variationRight": false
+    },
+    {
+      "subtitle": "Real Estate Agency",
+      "Title": "LUXURY YACHT RENTALS",
+      "Desc": "Experience the most incredible selection of luxury yacht rentals professionally crewed by highly qualified personnel!",
+      "icon": "FaHome",
+      "bgImage": "slide-2.webp",
+      "id": "2",
+      "buttonText": "Make An Enquiry",
+      "variationCenter": true,
+      "variationRight": false
+    }
+  ]
+  

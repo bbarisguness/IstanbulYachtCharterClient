@@ -1,0 +1,748 @@
+[
+    {
+      "id": "1",
+      "carousel": [
+        { "img": "1-1.webp" },
+        { "img": "1-2.webp" },
+        { "img": "1-3.webp" },
+        { "img": "1-4.webp" },
+        { "img": "1-5.webp" },
+        { "img": "1-6.webp" }
+      ],
+      "title": "Ariadne",
+      "productImg": "1-1.webp",
+      "price": 400,
+      "priceRange": ["Low Budget"],
+      "discount": 5,
+      "country": true,
+      "district": "Mission District Area",
+      "properties": 2,
+      "featured": true,
+      "new": true,
+      "rent": false,
+      "photo": ["buying", "women", "women"],
+      "video": ["buying", "women"],
+      "bedBath": ["Single", "renting", "selling"],
+      "ratingCount": 5,
+      "rating": 3,
+      "saleCount": 5,
+      "category": ["buying", "renting"],
+      "tag": [
+        "Popular",
+        "desgin",
+        "ux",
+        "usability",
+        "develop",
+        "icon",
+        "Car",
+        "Service",
+        "Repairs",
+        "Auto Parts",
+        "Oil",
+        "Dealer",
+        "Oil Change",
+        "Body Color"
+      ],
+      "date": "May 19, 2021",
+      "comments": 35,
+      "locantion": "Kuruçeşme",
+      "description": {
+        "title": "Description",
+        "fullDescription": "As a company, we invite you to take a luxury trip with us along the Bosphorus. Based on many years of experience, our company presents Ariadne, one of our luxury yachts, to you. With its friendly and expert staff, its most modern state and aesthetics, Ariadne is ready to bring all the beauties of the Bosphorus to your feet. Do you want to have a special moment alone or with your loved ones? Or do you want to sip a drink while watching the sunset? All your personal needs are on one yacht and we really care about that. Don't be late and contact us.",
+        "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      },
+      "propertyDetails": {
+        "propertyId": "HZ29",
+        "area": 3450,
+        "propertyStatus": "For Sale",
+        "rooms": 7,
+        "guestCount": 7,
+        "length": "20 mt",
+        "cabin": 3,
+        "captain": "1",
+        "crew": "1",
+        "baths": 2,
+        "createdYear": 1992
+      },
+      "factsAndFeatures": {
+        "livingRoom": "20 x 16 sq feet",
+        "garage": "20 x 16 sq feet",
+        "diningArea": "20 x 16 sq feet",
+        "bedroom": "20 x 16 sq feet",
+        "bathroom": "20 x 16 sq feet",
+        "gymArea": "20 x 16 sq feet",
+        "garden": "20 x 16 sq feet",
+        "parking": "20 x 16 sq feet"
+      },
+  
+      "amenities1": [
+        "Air Conditioning",
+        "Gym",
+        "Microwave",
+        "Swimming Pool",
+        "WiFi"
+      ],
+      "amenities2": [
+        "Barbeque",
+        "Recreation",
+        "Microwave",
+        "Basketball Cout",
+        "Fireplace"
+      ],
+      "amenities3": [
+        "Refrigerator",
+        "Window Coverings",
+        "Washer",
+        "24x7 Security",
+        "Indoor Game"
+      ],
+      "AmenitiesList": ["Dishwasher"],
+      "agent": {
+        "firstName": "Rosalina D.",
+        "lastName": "Willaimson",
+        "fullName": "Rosalina D. Willaimson",
+        "type": "Property Seller",
+        "img": "author.jpg",
+        "designation": "Traveller/Photographer",
+        "raiting": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+        "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+      },
+  
+      "gallery": {
+        "img1": "14.jpg",
+        "img2": "15.jpg",
+        "img3": "16.jpg"
+      },
+      "propertyTypes": ["House", "Office Villa", "Luxary Home"]
+    },
+    {
+      "id": "2",
+      "carousel": [
+        { "img": "35.jpg" },
+        { "img": "31.jpg" },
+        { "img": "32.jpg" },
+        { "img": "33.jpg" }
+      ],
+      "title": "Star 1",
+      "productImg": "star-1-1.jpg",
+      "price": 200,
+      "priceRange": ["Medium"],
+      "discount": 5,
+      "country": true,
+      "district": "Pacific Heights Area",
+      "properties": 2,
+      "featured": false,
+      "new": false,
+      "rent": true,
+      "photo": ["buying", "women", "women"],
+      "video": ["buying", "women"],
+      "bedBath": ["Single", "renting", "selling"],
+      "ratingCount": 3,
+      "rating": 4,
+      "saleCount": 10,
+      "category": ["buying"],
+      "tag": [
+        "Popular",
+        "desgin",
+        "ux",
+        "usability",
+        "develop",
+        "icon",
+        "Car",
+        "Service",
+        "Repairs",
+        "Auto Parts",
+        "Oil",
+        "Dealer",
+        "Oil Change",
+        "Body Color"
+      ],
+      "variation": [
+        {
+          "color": "brown",
+          "colorCode": "#87554b",
+          "image": "1.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 3
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 5
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "colorCode": "#333333",
+          "image": "2.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 4
+            },
+            {
+              "name": "m",
+              "stock": 7
+            },
+            {
+              "name": "xl",
+              "stock": 9
+            },
+            {
+              "name": "xxl",
+              "stock": 1
+            }
+          ]
+        },
+        {
+          "color": "red",
+          "colorCode": "#da323f",
+          "image": "3.jpg",
+          "size": [
+            {
+              "name": "x",
+              "stock": 1
+            },
+            {
+              "name": "m",
+              "stock": 2
+            },
+            {
+              "name": "xl",
+              "stock": 4
+            },
+            {
+              "name": "xxl",
+              "stock": 0
+            }
+          ]
+        }
+      ],
+      "date": "May 19, 2021",
+      "comments": 35,
+      "locantion": "Bebek",
+      "description": {
+        "title": "Description",
+        "fullDescription": "As a company, we invite you to take a luxury trip with us along the Bosphorus. Based on many years of experience, our company presents Ariadne, one of our luxury yachts, to you. With its friendly and expert staff, its most modern state and aesthetics, Ariadne is ready to bring all the beauties of the Bosphorus to your feet. Do you want to have a special moment alone or with your loved ones? Or do you want to sip a drink while watching the sunset? All your personal needs are on one yacht and we really care about that. Don't be late and contact us.",
+        "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      },
+      "propertyDetails": {
+        "propertyId": "HZ29",
+        "area": 3450,
+        "propertyStatus": "For Sale",
+        "rooms": 7,
+        "guestCount": 25,
+        "baths": 2,
+        "createdYear": 1992
+      },
+      "factsAndFeatures": {
+        "livingRoom": "20 x 16 sq feet",
+        "garage": "20 x 16 sq feet",
+        "diningArea": "20 x 16 sq feet",
+        "bedroom": "20 x 16 sq feet",
+        "bathroom": "20 x 16 sq feet",
+        "gymArea": "20 x 16 sq feet",
+        "garden": "20 x 16 sq feet",
+        "parking": "20 x 16 sq feet"
+      },
+  
+      "amenities1": [
+        "Air Conditioning",
+        "Gym",
+        "Microwave",
+        "Swimming Pool",
+        "WiFi"
+      ],
+      "amenities2": [
+        "Barbeque",
+        "Recreation",
+        "Microwave",
+        "Basketball Cout",
+        "Fireplace"
+      ],
+      "amenities3": [
+        "Refrigerator",
+        "Window Coverings",
+        "Washer",
+        "24x7 Security",
+        "Indoor Game"
+      ],
+      "AmenitiesList": ["Kids Zone"],
+      "agent": {
+        "firstName": "Rosalina D.",
+        "lastName": "Willaimson",
+        "fullName": "Rosalina D. Willaimson",
+        "type": "Property Seller",
+        "img": "author.jpg",
+        "designation": "Traveller/Photographer",
+        "raiting": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+        "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+      },
+  
+      "gallery": {
+        "img1": "14.jpg",
+        "img2": "15.jpg",
+        "img3": "16.jpg"
+      },
+      "propertyTypes": ["Apartment", "Office Villa", "Luxary Home", "Studio"]
+    },
+    {
+      "id": "3",
+      "carousel": [
+        { "img": "35.jpg" },
+        { "img": "31.jpg" },
+        { "img": "32.jpg" },
+        { "img": "33.jpg" }
+      ],
+      "title": "Star 2",
+      "productImg": "star-2-1.jpg",
+      "price": 175,
+      "priceRange": ["High Budget"],
+      "discount": 15,
+      "country": false,
+      "district": "Noe Valley Zones",
+      "properties": 3,
+      "featured": false,
+      "new": true,
+      "rent": false,
+      "photo": ["buying", "women", "women"],
+      "video": ["buying", "women"],
+      "bedBath": ["Single", "renting", "selling"],
+      "ratingCount": 2,
+      "rating": 3,
+      "saleCount": 15,
+      "category": ["buying", "selling"],
+      "tag": [
+        "Popular",
+        "desgin",
+        "ux",
+        "usability",
+        "develop",
+        "icon",
+        "Car",
+        "Service",
+        "Repairs",
+        "Auto Parts",
+        "Oil",
+        "Dealer",
+        "Oil Change",
+        "Body Color"
+      ],
+      "date": "May 19, 2021",
+      "comments": 35,
+      "locantion": "Bebek",
+      "description": {
+        "title": "Description",
+        "fullDescription": "As a company, we invite you to take a luxury trip with us along the Bosphorus. Based on many years of experience, our company presents Ariadne, one of our luxury yachts, to you. With its friendly and expert staff, its most modern state and aesthetics, Ariadne is ready to bring all the beauties of the Bosphorus to your feet. Do you want to have a special moment alone or with your loved ones? Or do you want to sip a drink while watching the sunset? All your personal needs are on one yacht and we really care about that. Don't be late and contact us.",
+        "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      },
+      "propertyDetails": {
+        "propertyId": "HZ29",
+        "area": 3450,
+        "propertyStatus": "For Sale",
+        "rooms": 7,
+        "guestCount": 12,
+        "baths": 2,
+        "createdYear": 1992
+      },
+      "factsAndFeatures": {
+        "livingRoom": "20 x 16 sq feet",
+        "garage": "20 x 16 sq feet",
+        "diningArea": "20 x 16 sq feet",
+        "bedroom": "20 x 16 sq feet",
+        "bathroom": "20 x 16 sq feet",
+        "gymArea": "20 x 16 sq feet",
+        "garden": "20 x 16 sq feet",
+        "parking": "20 x 16 sq feet"
+      },
+  
+      "amenities1": [
+        "Air Conditioning",
+        "Gym",
+        "Microwave",
+        "Swimming Pool",
+        "WiFi"
+      ],
+      "amenities2": [
+        "Barbeque",
+        "Recreation",
+        "Microwave",
+        "Basketball Cout",
+        "Fireplace"
+      ],
+      "amenities3": [
+        "Refrigerator",
+        "Window Coverings",
+        "Washer",
+        "24x7 Security",
+        "Indoor Game"
+      ],
+      "AmenitiesList": ["Floor Coverings"],
+      "agent": {
+        "firstName": "Rosalina D.",
+        "lastName": "Willaimson",
+        "fullName": "Rosalina D. Willaimson",
+        "type": "Property Seller",
+        "img": "author.jpg",
+        "designation": "Traveller/Photographer",
+        "raiting": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+        "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+      },
+  
+      "gallery": {
+        "img1": "14.jpg",
+        "img2": "15.jpg",
+        "img3": "16.jpg"
+      },
+      "propertyTypes": ["House", "Single Family", "Luxary Home", "Studio"]
+    },
+    {
+      "id": "4",
+      "carousel": [
+        { "img": "35.jpg" },
+        { "img": "31.jpg" },
+        { "img": "32.jpg" },
+        { "img": "33.jpg" }
+      ],
+      "title": "Star 3",
+      "productImg": "star-3-1.png",
+      "price": 200,
+      "priceRange": ["Medium"],
+      "discount": 10,
+      "country": false,
+      "district": "Mission District Area",
+      "properties": 1,
+      "featured": true,
+      "new": false,
+      "rent": true,
+      "photo": ["buying", "women", "men"],
+      "video": ["buying", "women", "children"],
+      "bedBath": ["Single", "renting", "selling"],
+      "ratingCount": 5,
+      "rating": 5,
+      "saleCount": 20,
+      "category": ["buying", "renting"],
+      "tag": [
+        "Popular",
+        "desgin",
+        "ux",
+        "usability",
+        "develop",
+        "icon",
+        "Car",
+        "Service",
+        "Repairs",
+        "Auto Parts",
+        "Oil",
+        "Dealer",
+        "Oil Change",
+        "Body Color"
+      ],
+      "date": "May 19, 2021",
+      "comments": 35,
+      "locantion": "Bebek",
+      "description": {
+        "title": "Description",
+        "fullDescription": "As a company, we invite you to take a luxury trip with us along the Bosphorus. Based on many years of experience, our company presents Ariadne, one of our luxury yachts, to you. With its friendly and expert staff, its most modern state and aesthetics, Ariadne is ready to bring all the beauties of the Bosphorus to your feet. Do you want to have a special moment alone or with your loved ones? Or do you want to sip a drink while watching the sunset? All your personal needs are on one yacht and we really care about that. Don't be late and contact us.",
+        "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      },
+      "propertyDetails": {
+        "propertyId": "HZ29",
+        "area": 3450,
+        "propertyStatus": "For Sale",
+        "rooms": 7,
+        "guestCount": 20,
+        "baths": 2,
+        "createdYear": 1992
+      },
+      "factsAndFeatures": {
+        "livingRoom": "20 x 16 sq feet",
+        "garage": "20 x 16 sq feet",
+        "diningArea": "20 x 16 sq feet",
+        "bedroom": "20 x 16 sq feet",
+        "bathroom": "20 x 16 sq feet",
+        "gymArea": "20 x 16 sq feet",
+        "garden": "20 x 16 sq feet",
+        "parking": "20 x 16 sq feet"
+      },
+  
+      "amenities1": [
+        "Air Conditioning",
+        "Gym",
+        "Microwave",
+        "Swimming Pool",
+        "WiFi"
+      ],
+      "amenities2": [
+        "Barbeque",
+        "Recreation",
+        "Microwave",
+        "Basketball Cout",
+        "Fireplace"
+      ],
+      "amenities3": [
+        "Refrigerator",
+        "Window Coverings",
+        "Washer",
+        "24x7 Security",
+        "Indoor Game"
+      ],
+      "AmenitiesList": ["Floor Coverings"],
+      "agent": {
+        "firstName": "Rosalina D.",
+        "lastName": "Willaimson",
+        "fullName": "Rosalina D. Willaimson",
+        "type": "Property Seller",
+        "img": "author.jpg",
+        "designation": "Traveller/Photographer",
+        "raiting": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+        "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+      },
+  
+      "gallery": {
+        "img1": "14.jpg",
+        "img2": "15.jpg",
+        "img3": "16.jpg"
+      },
+      "propertyTypes": [
+        "House",
+        "Single Family",
+        "Apartment",
+        "Luxary Home",
+        "Studio"
+      ]
+    },
+    {
+      "id": "5",
+      "carousel": [
+        { "img": "35.jpg" },
+        { "img": "31.jpg" },
+        { "img": "32.jpg" },
+        { "img": "33.jpg" }
+      ],
+      "title": "Star 4",
+      "productImg": "star-4-1.jpg",
+      "price": 250,
+      "priceRange": ["Low Budget"],
+      "discount": 5,
+      "country": true,
+      "district": "Mission District Area",
+      "properties": 2,
+      "featured": true,
+      "new": true,
+      "rent": true,
+      "photo": ["buying", "women", "women"],
+      "video": ["buying", "women"],
+      "bedBath": ["Single", "renting", "selling"],
+      "ratingCount": 5,
+      "rating": 5,
+      "saleCount": 90,
+      "category": ["buying", "renting"],
+      "tag": [
+        "Popular",
+        "desgin",
+        "ux",
+        "usability",
+        "develop",
+        "icon",
+        "Car",
+        "Service",
+        "Repairs",
+        "Auto Parts",
+        "Oil",
+        "Dealer",
+        "Oil Change",
+        "Body Color"
+      ],
+      "date": "May 19, 2021",
+      "comments": 35,
+      "locantion": "Bebek",
+      "description": {
+        "title": "Description",
+        "fullDescription": "As a company, we invite you to take a luxury trip with us along the Bosphorus. Based on many years of experience, our company presents Ariadne, one of our luxury yachts, to you. With its friendly and expert staff, its most modern state and aesthetics, Ariadne is ready to bring all the beauties of the Bosphorus to your feet. Do you want to have a special moment alone or with your loved ones? Or do you want to sip a drink while watching the sunset? All your personal needs are on one yacht and we really care about that. Don't be late and contact us.",
+        "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      },
+      "propertyDetails": {
+        "propertyId": "HZ29",
+        "area": 3450,
+        "propertyStatus": "For Sale",
+        "rooms": 7,
+        "guestCount": 25,
+        "baths": 2,
+        "createdYear": 1992
+      },
+      "factsAndFeatures": {
+        "livingRoom": "20 x 16 sq feet",
+        "garage": "20 x 16 sq feet",
+        "diningArea": "20 x 16 sq feet",
+        "bedroom": "20 x 16 sq feet",
+        "bathroom": "20 x 16 sq feet",
+        "gymArea": "20 x 16 sq feet",
+        "garden": "20 x 16 sq feet",
+        "parking": "20 x 16 sq feet"
+      },
+  
+      "amenities1": [
+        "Air Conditioning",
+        "Gym",
+        "Microwave",
+        "Swimming Pool",
+        "WiFi"
+      ],
+      "amenities2": [
+        "Barbeque",
+        "Recreation",
+        "Microwave",
+        "Basketball Cout",
+        "Fireplace"
+      ],
+      "amenities3": [
+        "Refrigerator",
+        "Window Coverings",
+        "Washer",
+        "24x7 Security",
+        "Indoor Game"
+      ],
+      "AmenitiesList": ["Supermarket"],
+      "agent": {
+        "firstName": "Rosalina D.",
+        "lastName": "Willaimson",
+        "fullName": "Rosalina D. Willaimson",
+        "type": "Property Seller",
+        "img": "author.jpg",
+        "designation": "Traveller/Photographer",
+        "raiting": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+        "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+      },
+  
+      "gallery": {
+        "img1": "14.jpg",
+        "img2": "15.jpg",
+        "img3": "16.jpg"
+      },
+      "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
+    },
+    {
+      "id": "6",
+      "carousel": [
+        { "img": "35.jpg" },
+        { "img": "31.jpg" },
+        { "img": "32.jpg" },
+        { "img": "33.jpg" }
+      ],
+      "title": "Star Mega",
+      "productImg": "star-mega-1.jpg",
+      "price": 1600,
+      "priceRange": ["Low"],
+      "discount": 5,
+      "country": true,
+      "district": "Mission District Area",
+      "properties": 2,
+      "featured": true,
+      "new": false,
+      "rent": true,
+      "photo": ["buying", "women", "women"],
+      "video": ["buying", "women"],
+      "bedBath": ["Single", "renting", "selling"],
+      "ratingCount": 2,
+      "rating": 3,
+      "saleCount": 25,
+      "category": ["buying", "selling", "renting"],
+      "tag": [
+        "Popular",
+        "desgin",
+        "ux",
+        "usability",
+        "develop",
+        "icon",
+        "Car",
+        "Service",
+        "Repairs",
+        "Auto Parts",
+        "Oil",
+        "Dealer",
+        "Oil Change",
+        "Body Color"
+      ],
+      "date": "May 19, 2021",
+      "comments": 35,
+      "locantion": "Bebek",
+      "description": {
+        "title": "Description",
+        "fullDescription": "As a company, we invite you to take a luxury trip with us along the Bosphorus. Based on many years of experience, our company presents Ariadne, one of our luxury yachts, to you. With its friendly and expert staff, its most modern state and aesthetics, Ariadne is ready to bring all the beauties of the Bosphorus to your feet. Do you want to have a special moment alone or with your loved ones? Or do you want to sip a drink while watching the sunset? All your personal needs are on one yacht and we really care about that. Don't be late and contact us.",
+        "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      },
+      "propertyDetails": {
+        "propertyId": "HZ29",
+        "area": 3450,
+        "propertyStatus": "For Sale",
+        "rooms": 7,
+        "guestCount": 120,
+        "baths": 2,
+        "createdYear": 1992
+      },
+      "factsAndFeatures": {
+        "livingRoom": "20 x 16 sq feet",
+        "garage": "20 x 16 sq feet",
+        "diningArea": "20 x 16 sq feet",
+        "bedroom": "20 x 16 sq feet",
+        "bathroom": "20 x 16 sq feet",
+        "gymArea": "20 x 16 sq feet",
+        "garden": "20 x 16 sq feet",
+        "parking": "20 x 16 sq feet"
+      },
+  
+      "amenities1": [
+        "Air Conditioning",
+        "Gym",
+        "Microwave",
+        "Swimming Pool",
+        "WiFi"
+      ],
+      "amenities2": [
+        "Barbeque",
+        "Recreation",
+        "Microwave",
+        "Basketball Cout",
+        "Fireplace"
+      ],
+      "amenities3": [
+        "Refrigerator",
+        "Window Coverings",
+        "Washer",
+        "24x7 Security",
+        "Indoor Game"
+      ],
+      "AmenitiesList": ["Kids Zone"],
+      "agent": {
+        "firstName": "Rosalina D.",
+        "lastName": "Willaimson",
+        "fullName": "Rosalina D. Willaimson",
+        "type": "Property Seller",
+        "img": "author.jpg",
+        "designation": "Traveller/Photographer",
+        "raiting": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+        "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+      },
+  
+      "gallery": {
+        "img1": "14.jpg",
+        "img2": "15.jpg",
+        "img3": "16.jpg"
+      },
+      "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
+    }
+  ]
+  
