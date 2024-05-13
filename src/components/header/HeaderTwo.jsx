@@ -74,9 +74,9 @@ const HeaderStyleTwo = function ({ SetToggleClassName, topbar, path }) {
             <Row>
               <Col>
                 <div className="site-logo-wrap">
-                  <div className="site-logo">
+                  <div className="site-logo" style={{backgroundColor: scroll > headerHeight ? "transparent" : "black"}}>
                     <Link href="/">
-                      <img src={transparentLinks.includes(path) ? "/img/logo-2.png" : scroll > headerHeight ? "/img/logo-2.png" : "/img/logo.png"} alt="Logo" />
+                      <img src={transparentLinks.includes(path) ? "/img/logo-2.png" : scroll > headerHeight ? "/img/logo1.png" : "/img/logo1.png"} alt="Logo" />
                     </Link>
                   </div>
                 </div>

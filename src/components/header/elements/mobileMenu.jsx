@@ -43,9 +43,9 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
       >
         <div className="ltn__utilize-menu-inner ltn__scrollbar">
           <div className="ltn__utilize-menu-head">
-            <div className="site-logo">
+            <div className="site-logo" style={{backgroundColor: "black"}}>
               <Link href="/">
-                <img src="/img/logo.png" alt="Logo" />
+                <img src="/img/logo1.png" alt="Logo" />
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">
