@@ -101,7 +101,7 @@ export default function Page({ params, searchParams }) {
                       ))
                     }
 
-                    <li className="ltn__blog-date">
+                    {/* <li className="ltn__blog-date">
                       <i className="far fa-calendar-alt"></i>
                       {product.date}
                     </li>
@@ -111,7 +111,7 @@ export default function Page({ params, searchParams }) {
                         {product.comments}
                         Comments
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <h1> {product.title}</h1>
@@ -363,7 +363,7 @@ export default function Page({ params, searchParams }) {
                 <h4 className="title-2">Property Video</h4>
                 <VideoComp />
 
-                <div className="ltn__shop-details-tab-content-inner--- ltn__shop-details-tab-inner-2 ltn__product-details-review-inner mb-60">
+                {/* <div className="ltn__shop-details-tab-content-inner--- ltn__shop-details-tab-inner-2 ltn__product-details-review-inner mb-60">
                   <h4 className="title-2">Customer Reviews</h4>
                   <div className="product-ratting">
                     <ul>
@@ -631,7 +631,7 @@ export default function Page({ params, searchParams }) {
                       </div>
                     </form>
                   </div>
-                </div>
+                </div> */}
 
                 <h4 className="title-2">Related Properties</h4>
                 <Row>
