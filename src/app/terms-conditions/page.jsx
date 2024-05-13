@@ -1,6 +1,13 @@
 import { Row, Col } from "react-bootstrap";
 import ShopBreadCrumb from "@/components/breadCrumbs/shop";
 
+export async function generateMetadata({ params, searchParams }, parent) {
+  return {
+    title: "Terms & Conditions | İstanbul Yacht Charter",
+    description: "Terms & Conditions",
+  };
+}
+
 export default function Page() {
   return (
     <>

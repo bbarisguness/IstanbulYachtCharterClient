@@ -11,8 +11,8 @@ import SlideBottom from "@/components/slideBottom";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
-    title: "test",
-    description: "test123",
+    title: "İstanbul Yacht Charter",
+    description: "İstanbul Yacht Charter",
   };
 }
 

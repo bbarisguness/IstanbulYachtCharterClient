@@ -1,6 +1,13 @@
 import { Row, Col } from "react-bootstrap";
 import ShopBreadCrumb from "@/components/breadCrumbs/shop";
 
+export async function generateMetadata({ params, searchParams }, parent) {
+  return {
+    title: "Cancellation | İstanbul Yacht Charter",
+    description: "Cancellation",
+  };
+}
+
 export default function Page() {
   return (
     <>

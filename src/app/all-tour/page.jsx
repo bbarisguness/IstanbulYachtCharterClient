@@ -6,8 +6,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
-    title: "All tours",
-    description: "all tours",
+    title: "All tours | İstanbul Yacht Charter",
+    description: "All tours",
   };
 }
 
