@@ -1,9 +1,0 @@
-{
-  "/wedding-and-events/page": "app/wedding-and-events/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/about-us/page": "app/about-us/page.js",
-  "/page": "app/page.js",
-  "/all-tour/page": "app/all-tour/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}
