@@ -100,22 +100,19 @@ const Footer = function () {
                   <div className="footer-menu">
                     <ul>
                       <li>
-                        <Link href="/about-us">About</Link>
+                        <Link href="/all-tour">Tours</Link>
                       </li>
                       <li>
-                        <Link href="/blog">Blog</Link>
+                        <Link href="/sunset-cruise">Sunset Cruise</Link>
                       </li>
                       <li>
-                        <Link href="/shop">All Products</Link>
+                        <Link href="/wedding-and-events">Wedding & Events</Link>
                       </li>
                       <li>
-                        <Link href="/locations">Locations Map</Link>
+                        <Link href="/all-yacht">Our Yachts</Link>
                       </li>
                       <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact us</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </div>
