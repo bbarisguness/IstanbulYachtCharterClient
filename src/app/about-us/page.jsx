@@ -14,8 +14,8 @@ import Services from "@/components/services";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
-    title: "About",
-    description: "about us",
+    title: "About | İstanbul Yacht Charter",
+    description: "About us",
   };
 }
 

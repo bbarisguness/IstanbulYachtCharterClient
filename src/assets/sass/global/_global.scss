@@ -711,6 +711,17 @@ p {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  word-break: break-all;
+}
+.terms-conditions {
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+.terms-conditions p {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 15px 0;
+  color: #000;
 }
 a {
   color: inherit;

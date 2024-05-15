@@ -11,6 +11,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaPhoneAlt,
+  FaInstagram
 } from "react-icons/fa";
 import contactData from "@/data/contactData.json"
 
@@ -27,12 +28,11 @@ const Footer = function () {
                   <div className="footer-logo">
                     <div className="site-logo">
                       {/* <img src="/img/logo.png" alt="Logo" /> */}
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      <img src="/img/logo1.png" alt="Logo" />
                     </div>
                   </div>
                   <p>
-                    Lorem Ipsum is simply dummy text of the and typesetting
-                    industry. Lorem Ipsum is dummy text of the printing.
+                    Istanbul Yacht Charter offering exclusive yachts , tailor made bosphorus tours.
                   </p>
                   <div className="footer-address">
                     <ul>
@@ -71,25 +71,25 @@ const Footer = function () {
                   <div className="ltn__social-media mt-20">
                     <ul>
                       <li>
-                        <Link href="#" title="Facebook">
+                        <Link href="https://www.facebook.com/Istanbul-Yacht-Charter-111833137345274" target='_blank' title="Facebook">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" title="Twitter">
+                        <Link href="https://twitter.com/yacht_istanbul" target='_blank' title="Twitter">
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" title="Linkedin">
-                          <FaLinkedin />
+                        <Link href="https://www.instagram.com/yachtcharteristanbul" target='_blank' title="Instagram">
+                          <FaInstagram />
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="#" title="Youtube">
                           <FaYoutube />
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -100,22 +100,19 @@ const Footer = function () {
                   <div className="footer-menu">
                     <ul>
                       <li>
-                        <Link href="/about-us">About</Link>
+                        <Link href="/all-tour">Tours</Link>
                       </li>
                       <li>
-                        <Link href="/blog">Blog</Link>
+                        <Link href="/sunset-cruise">Sunset Cruise</Link>
                       </li>
                       <li>
-                        <Link href="/shop">All Products</Link>
+                        <Link href="/wedding-and-events">Wedding & Events</Link>
                       </li>
                       <li>
-                        <Link href="/locations">Locations Map</Link>
+                        <Link href="/all-yacht">Our Yachts</Link>
                       </li>
                       <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact us</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </div>
@@ -206,7 +203,10 @@ const Footer = function () {
                 <div className="ltn__copyright-menu text-end">
                   <ul>
                     <li>
-                      <Link href="#">Terms & Conditions</Link>
+                      <Link href="cancellation">Cancellation</Link>
+                    </li>
+                    <li>
+                      <Link href="terms-conditions">Terms & Conditions</Link>
                     </li>
                     <li>
                       <Link href="#">Claim</Link>

@@ -5,8 +5,8 @@ import CallToAction from "@/components/callToAction";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
-    title: "Contact",
-    description: "Contact us",
+    title: "Contact | İstanbul Yacht Charter",
+    description: "Contact",
   };
 }
 

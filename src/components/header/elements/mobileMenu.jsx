@@ -43,9 +43,9 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
       >
         <div className="ltn__utilize-menu-inner ltn__scrollbar">
           <div className="ltn__utilize-menu-head">
-            <div className="site-logo">
+            <div className="site-logo" style={{backgroundColor: "black"}}>
               <Link href="/">
-                <img src="/img/logo.png" alt="Logo" />
+                <img src="/img/logo1.png" alt="Logo" />
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">
@@ -126,22 +126,22 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__social-media-2">
             <ul>
               <li>
-                <Link href="#">
+                <Link href="https://www.facebook.com/Istanbul-Yacht-Charter-111833137345274" target='_blank'>
                   <FaFacebookF />
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href="https://twitter.com/yacht_istanbul" target='_blank'>
                   <FaTwitter />
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">
                   <FaLinkedin />
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="#">
+                <Link href="https://www.instagram.com/yachtcharteristanbul" target='_blank'>
                   <FaInstagram />
                 </Link>
               </li>
