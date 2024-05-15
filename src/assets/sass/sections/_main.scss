@@ -3293,18 +3293,6 @@ blockquote {
   &:hover {
     box-shadow: var(--ltn__box-shadow-1);
   }
-
-  img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-  }
-
-  @media only screen and (max-width: 991px) {
-    img {
-      height: 300px;
-    }
-  }
 }
 
 .team-info {
