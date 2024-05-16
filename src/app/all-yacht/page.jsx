@@ -7,15 +7,15 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
-    title: "All tours | İstanbul Yacht Charter",
-    description: "All tours",
+    title: "All yachts | İstanbul Yacht Charter",
+    description: "All yachts",
   };
 }
 
 export default function Page({ params, searchParams }) {
   return (
     <>
-      <List1 data={listData} title={"Tour"} />
+      <List1 data={listData} title={"Yacht"} />
       <Paginate />
       <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom mt-50">
         <Container>

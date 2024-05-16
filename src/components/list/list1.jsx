@@ -26,8 +26,8 @@ export default function List1({ data, title }) {
                 sectionClasses="text-center"
                 headingClasses="section-subtitle-2"
                 titleSectionData={{
-                  subTitle: "Tours",
-                  title: title || "Tour List",
+                  subTitle: title+'s',
+                  title: title+" List" || "List",
                 }}
               />
             </Col>

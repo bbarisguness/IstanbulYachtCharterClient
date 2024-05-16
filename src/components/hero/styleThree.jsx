@@ -71,6 +71,8 @@ function HeroSectionStyleThree({ data }) {
                 className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3 bg-image"
                   style={{
                     backgroundImage: `url("../img/slider/${item.bgImage}")`,
+                    height: 'auto',
+                    minHeight: 0,
                   }}
                 >
                   <div

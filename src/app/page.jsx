@@ -31,7 +31,7 @@ export default function Page({ params, searchParams }) {
         <HeroSectionStyleThree data={sliderData} />
       </div>
       <AboutUsStyleOne sectionSpace="pt-80 pb-40" data={aboutData} />
-      <Services />
+      <Services bgClass="section-bg-1" />
       <List1 data={listData} title={"EXCLUSIVE YACHT HIRE ISTANBUL"} />
       <Slogan />
       <LuxuryYachtCharter />

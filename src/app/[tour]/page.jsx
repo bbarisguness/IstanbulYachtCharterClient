@@ -4,6 +4,7 @@ import { productSlug, getProducts, getDiscountPrice } from "@/lib/products";
 import FollowUs from "@/components/followUs";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import RelatedProduct from "@/components/product/related-product";
+import Services from "@/components/services";
 import Tags from "@/components/tags";
 import Link from "next/link";
 import VideoComp from "@/components/detail/videoComp";
@@ -646,7 +647,7 @@ export default function Page({ params, searchParams }) {
                     const wishlistItem = [];
                     const compareItem = [];
                     return (
-                      <Col xs={12} sm={4} key={key}>
+                      <Col xs={12} sm={6} lg={4} key={key}>
                         <RelatedProduct
                           productData={data}
                           slug={slug}
@@ -661,10 +662,11 @@ export default function Page({ params, searchParams }) {
                     );
                   })}
                 </Row>
+                <Services titleType={0} title={"Services"} />
               </div>
             </Col>
 
-            <Col xs={12} lg={4}>
+            <Col xs={12} lg={4} >
               {/* <aside className="sidebar ltn__shop-sidebar ltn__right-sidebar---">
                 <div className="widget ltn__author-widget">
                   <div className="ltn__author-widget-inner text-center">
