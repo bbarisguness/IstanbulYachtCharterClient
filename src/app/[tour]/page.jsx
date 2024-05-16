@@ -633,7 +633,7 @@ export default function Page({ params, searchParams }) {
                     </form>
                   </div>
                 </div> */}
-
+                <Services titleType={0} title={"Services"} />
                 <h4 className="title-2">Related Properties</h4>
                 <Row>
                   {relatedProducts.map((data, key) => {
@@ -662,7 +662,6 @@ export default function Page({ params, searchParams }) {
                     );
                   })}
                 </Row>
-                <Services titleType={0} title={"Services"} />
               </div>
             </Col>
 
