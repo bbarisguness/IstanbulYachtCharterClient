@@ -1,0 +1,21 @@
+.myCalendarInput {
+    height: 60px !important;
+}
+
+.myCalendarInput.invalid {
+    border: 2px solid red !important;
+}
+
+.myCalendarInput::placeholder {
+    color: black !important;
+    font-weight: bold;
+}
+
+.myCalendarWrapper {
+    display: inline;
+}
+
+.myCalendarInputIcon {
+    top: 15px;
+    right: 0;
+}

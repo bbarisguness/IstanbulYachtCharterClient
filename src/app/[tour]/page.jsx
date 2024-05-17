@@ -25,6 +25,7 @@ import {
 import Slider1 from "@/components/detail/sliderComp/slider1";
 import FloorPlans from "@/components/detail/floorPlans";
 import PopulerProperties from "@/components/detail/sliderComp/populerProperties";
+import Reservation from "@/components/reservation";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -34,6 +35,27 @@ export async function generateMetadata({ params, searchParams }, parent) {
 }
 
 export default function Page({ params, searchParams }) {
+  const aboutThisActivityData = [
+    {
+      title: "Free cancellation",
+      content: "Cancel up to 24 hours in advance for a full refund",
+    },
+    {
+      title: "Reserve now & pay later",
+      content:
+        "Keep your travel plans flexible — book yourspotand pay nothing today.",
+    },
+    {
+      title: "Duration 3 hours",
+      content: "Check availability to see starting times.",
+    },
+    {
+      title: "Host or greeter",
+      content:
+        "English, Arabic, Bulgarian, French, Greek, Spanish, Russian, Turkish, German,Italian",
+    },
+  ];
+
   const latestdBlogs = getProducts(blogs, "buying", "featured", 4);
   const product = products.filter(
     (single) => productSlug(single.title) === params.tour
@@ -126,7 +148,7 @@ export default function Page({ params, searchParams }) {
                 <p>{product.description.fullDescription}</p>
                 {/* <p>{product.description.shortDescription}</p> */}
 
-                <h4 className="title-2">Main Details</h4>
+                <h4 className="title-2">Main Details & About This Activity </h4>
                 <div className="property-detail-info-list section-bg-1 clearfix mb-60">
                   <ul>
                     <li>
@@ -153,12 +175,25 @@ export default function Page({ params, searchParams }) {
                       <span>{product.propertyDetails.crew}</span>
                     </li>
                   </ul>
+                  <ul>
+                    {aboutThisActivityData.map((item, index) => (
+                      <li>
+                        <span>{item.title}</span>
+                        <br />
+                        <span style={{ fontSize: 13 }}>{item.content}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
                 <h4 className="title-2">Hourly Rental Fee</h4>
                 <div className="property-detail-info-list clearfix mb-60">
-                  <div><b>Starting From  400.00 € </b></div>
+                  <div>
+                    <b>Starting From 400.00 € </b>
+                  </div>
                 </div>
+
+                <Reservation navMenuClass="d-none" customClasses="" />
 
                 {/* <h4 className="title-2">Facts and Features</h4>
                 <div className="property-detail-feature-list clearfix mb-45">
@@ -238,7 +273,7 @@ export default function Page({ params, searchParams }) {
                   </ul>
                 </div> */}
 
-                <h4 className="title-2">From Our Gallery</h4>
+                <h4 className="title-2" style={{marginTop: 60}}>From Our Gallery</h4>
                 <div className="ltn__property-details-gallery mb-30">
                   <div className="row">
                     <div className="col-md-6">
@@ -665,7 +700,7 @@ export default function Page({ params, searchParams }) {
               </div>
             </Col>
 
-            <Col xs={12} lg={4} >
+            <Col xs={12} lg={4}>
               {/* <aside className="sidebar ltn__shop-sidebar ltn__right-sidebar---">
                 <div className="widget ltn__author-widget">
                   <div className="ltn__author-widget-inner text-center">
