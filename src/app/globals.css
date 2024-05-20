@@ -6,6 +6,10 @@
     border: 2px solid red !important;
 }
 
+.reservationPageInvalid {
+    border: 2px solid red !important;
+}
+
 .myCalendarInput::placeholder {
     color: black !important;
     font-weight: bold;

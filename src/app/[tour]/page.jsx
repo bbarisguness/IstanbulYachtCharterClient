@@ -193,7 +193,7 @@ export default function Page({ params, searchParams }) {
                   </div>
                 </div>
 
-                <Reservation navMenuClass="d-none" customClasses="" />
+                <Reservation navMenuClass="d-none" customClasses="" data={product} />
 
                 {/* <h4 className="title-2">Facts and Features</h4>
                 <div className="property-detail-feature-list clearfix mb-45">

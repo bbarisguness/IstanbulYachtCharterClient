@@ -2,11 +2,10 @@
 
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { FaCarAlt, FaUserAlt } from "react-icons/fa";
-import Link from "next/link";
-import { useState } from "react";
 import DatePicker from "react-datepicker";
+import { useRouter } from "next/navigation";
 import * as Yup from "yup";
-import { Formik, Form, Field } from "formik";
+import { Formik, Form } from "formik";
 import { BsClockFill } from "react-icons/bs";
 
 const ReservationSchema = Yup.object().shape({
@@ -15,7 +14,8 @@ const ReservationSchema = Yup.object().shape({
   endTime: Yup.date().required(),
 });
 
-export default function Reservation({ navMenuClass, customClasses }) {
+export default function Reservation({ navMenuClass, customClasses, data }) {
+  const router = useRouter();
   return (
     <>
       <div className={`ltn__car-dealer-form-area ${customClasses}`}>
@@ -55,6 +55,16 @@ export default function Reservation({ navMenuClass, customClasses }) {
                           validationSchema={ReservationSchema}
                           onSubmit={(values, actions) => {
                             console.log(values);
+                            router.push("/reservation");
+                            localStorage.setItem(
+                              "reservation",
+                              JSON.stringify({
+                                date: values.date,
+                                startTime: values.startTime,
+                                endTime: values.endTime,
+                                name: data.title,
+                              })
+                            );
                           }}
                         >
                           {({
@@ -73,6 +83,7 @@ export default function Reservation({ navMenuClass, customClasses }) {
                                   className="ltn__car-dealer-form-item"
                                 >
                                   <DatePicker
+                                    minDate={new Date()}
                                     autoComplete="off"
                                     name="date"
                                     showIcon
@@ -115,7 +126,7 @@ export default function Reservation({ navMenuClass, customClasses }) {
                                     }
                                     showTimeSelect
                                     showTimeSelectOnly
-                                    timeIntervals={15}
+                                    timeIntervals={30}
                                     timeCaption="Time"
                                     dateFormat="h:mm aa"
                                     placeholderText="Select start time"
@@ -147,7 +158,7 @@ export default function Reservation({ navMenuClass, customClasses }) {
                                     }
                                     showTimeSelect
                                     showTimeSelectOnly
-                                    timeIntervals={15}
+                                    timeIntervals={30}
                                     timeCaption="Time"
                                     dateFormat="h:mm aa"
                                     placeholderText="Select end time"
@@ -155,7 +166,7 @@ export default function Reservation({ navMenuClass, customClasses }) {
                                     minTime={values.startTime}
                                     maxTime={new Date(
                                       values.startTime
-                                    ).setHours(23, 45, 0)}
+                                    ).setHours(23, 30, 0)}
                                     onKeyDown={(e) => e.preventDefault()}
                                   />
                                 </Col>
@@ -169,7 +180,7 @@ export default function Reservation({ navMenuClass, customClasses }) {
                                     <button
                                       type="submit"
                                       className="btn theme-btn-1 btn-effect-1 text-uppercase"
-                                      style={{zIndex: 0}}
+                                      style={{ zIndex: 0 }}
                                     >
                                       Reservation
                                     </button>
