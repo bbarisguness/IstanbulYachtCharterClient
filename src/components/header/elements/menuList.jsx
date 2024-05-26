@@ -19,9 +19,6 @@ const MenuList = ({ addListing }) => {
         <Link href="/all-yacht">OUR YACHTS</Link>
       </li>
       <li>
-        <Link href="/reservation">RESERVATION</Link>
-      </li>
-      <li>
         <Link href="/contact">CONTACT</Link>
       </li>
       {addListing ? (

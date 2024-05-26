@@ -78,9 +78,6 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                 <Link href="/all-yacht">Our Yachts</Link>
               </li>
               <li>
-                <Link href="/reservation">Reservation</Link>
-              </li>
-              <li>
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>
