@@ -26,9 +26,7 @@ export default async function Page() {
                 <div className="ltn__blog-img">
                   <img src={`/img/services/sunset-cruise-bg.jpg`} alt="Image" />
                 </div>
-                <p style={{ wordBreak: "break-all" }}>
-                  asdaslkdgahkshdgakjhsgdkjhagskdjhgaksdkhagdfkhgaksjhdkajhsgdkjhagsdkjhgaskjdhgakjshdgjkhgaskjhdgkashgdkjahgsdkjhagskdjhgaksjhdgkjashgdkjahsgdjhgaksjhdgakjhsdgkjhasgdjkhasgdkjhagskjdhgajksdhgkajshdgkjahsgd
-                </p>
+                <p style={{ wordBreak: "break-all" }}>{aboutData.content}</p>
               </div>
             </Col>
           </Row>
