@@ -85,7 +85,7 @@ const HeaderStyleTwo = function ({ SetToggleClassName, topbar, path }) {
                 <div className="header-menu d-none d-xl-block">
                   <nav>
                     <div className="ltn__main-menu">
-                      <MenuList addListing={true} />
+                      <MenuList addListing={false} />
                     </div>
                   </nav>
                 </div>
