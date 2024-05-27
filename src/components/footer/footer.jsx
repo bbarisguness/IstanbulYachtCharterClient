@@ -23,7 +23,7 @@ const Footer = function () {
         <div className="footer-top-area  section-bg-2 plr--5">
           <Container fluid>
             <Row>
-              <Col xs={12} sm={6} xl={3}>
+              <Col xs={12} sm={6} xl={6}>
                 <div className="footer-widget footer-about-widget">
                   <div className="footer-logo">
                     <div className="site-logo">
@@ -71,17 +71,17 @@ const Footer = function () {
                   <div className="ltn__social-media mt-20">
                     <ul>
                       <li>
-                        <Link href="https://www.facebook.com/Istanbul-Yacht-Charter-111833137345274" target='_blank' title="Facebook">
+                        <Link href="https://www.facebook.com/profile.php?id=100063849230705" target='_blank' title="Facebook">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link href="https://twitter.com/yacht_istanbul" target='_blank' title="Twitter">
+                        <Link href="https://x.com/yacht_istanbul" target='_blank' title="Twitter">
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link href="https://www.instagram.com/yachtcharteristanbul" target='_blank' title="Instagram">
+                        <Link href="https://www.instagram.com/yachtcharteristanbul/" target='_blank' title="Instagram">
                           <FaInstagram />
                         </Link>
                       </li>
@@ -94,7 +94,7 @@ const Footer = function () {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} sm={6} xl={2}>
+              <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-menu-widget clearfix">
                   <h4 className="footer-title">Company</h4>
                   <div className="footer-menu">
@@ -118,7 +118,7 @@ const Footer = function () {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} sm={6} xl={2}>
+              <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-menu-widget clearfix">
                   <h4 className="footer-title">Services</h4>
                   <div className="footer-menu">
@@ -134,55 +134,6 @@ const Footer = function () {
                       </li>
                     </ul>
                   </div>
-                </div>
-              </Col>
-              <Col xs={12} sm={6} xl={2}>
-                <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title">Customer Care</h4>
-                  <div className="footer-menu">
-                    <ul>
-                      <li>
-                        <Link href="/login">Login</Link>
-                      </li>
-                      <li>
-                        <Link href="/my-account">My account</Link>
-                      </li>
-                      <li>
-                        <Link href="/wishlist">Wish List</Link>
-                      </li>
-                      <li>
-                        <Link href="/order-tracking">Order tracking</Link>
-                      </li>
-                      <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact us</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </Col>
-              <Col xs={12} sm={6} xl={3}>
-                <div className="footer-widget footer-newsletter-widget">
-                  <h4 className="footer-title">Newsletter</h4>
-                  <p>
-                    Subscribe to our weekly Newsletter and receive updates via
-                    email.
-                  </p>
-                  <div className="footer-newsletter">
-                    <form action="#">
-                      <input type="email" name="email" placeholder="Email*" />
-                      <div className="btn-wrapper">
-                        <button className="theme-btn-1 btn" type="submit">
-                          {" "}
-                          <FaPaperPlane />
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  <h5 className="mt-30">We Accept</h5>
-                  <img src="/img/icons/payment-4.png" alt="Payment Image" />
                 </div>
               </Col>
             </Row>
