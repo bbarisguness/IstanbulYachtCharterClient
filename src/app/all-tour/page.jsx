@@ -17,7 +17,7 @@ export default function Page({ params, searchParams }) {
     <>
       <List1 data={listData} title={"Tour"} />
       <Paginate />
-      <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom mt-50">
+      {/* <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom mt-50">
         <Container>
           <Row>
             <Col xs={12}>
@@ -25,7 +25,7 @@ export default function Page({ params, searchParams }) {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </>
   );
 }
