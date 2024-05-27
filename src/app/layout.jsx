@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
   }, [pathname])
 
   const [toggleClassName, SetToggleClassName] = useState(false);
-  const [topbar, SetTopbar] = useState(true);
+  const [topbar, SetTopbar] = useState(false);
 
   function toggleClassNameInBody() {
     SetToggleClassName((toggleClassName) => !toggleClassName);
