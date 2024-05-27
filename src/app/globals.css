@@ -23,3 +23,24 @@
     top: 15px;
     right: 0;
 }
+
+.wpIcon {
+    position: fixed;
+    z-index: 2147483647;
+    bottom: 140px;
+    font-weight: bold;
+    right: 3%;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.wpIcon:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .wpIcon {
+        bottom: 100px;
+        right: 2.3%;
+    }
+}

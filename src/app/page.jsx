@@ -8,6 +8,8 @@ import Slogan from "@/components/slogan";
 import LuxuryYachtCharter from "@/components/luxuryYachtCharter";
 import PrivateYachtRental from "@/components/privateYachtRental";
 import SlideBottom from "@/components/slideBottom";
+import Image from "next/image";
+import Link from "next/link";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -21,12 +23,15 @@ export default function Page({ params, searchParams }) {
     title: "LUXURY YACHT CHARTERS IN THE ISTANBUL BOSPHORUS",
     content: [
       "We organize Istanbul yacht charter service for our valued customers, and our previous customers include large multinational companies, corporations and individuals from around the world for events such as conferences, weddings or dec in Istanbul.",
-      "For them, such a unique venue as a boat rental in Istanbul is often a highlight for entertaining discerning guests – yachting with cocktails or dining out while swimming in beautiful Istanbul."
+      "For them, such a unique venue as a boat rental in Istanbul is often a highlight for entertaining discerning guests – yachting with cocktails or dining out while swimming in beautiful Istanbul.",
     ],
-    buttonName: "LUXURY YACHT RESERVATION"
-  }
+    buttonName: "LUXURY YACHT RESERVATION",
+  };
   return (
     <>
+      <Link href={'https://api.whatsapp.com/send?phone=5354906776'} target="_blank" className="wpIcon">
+        <Image src={"/img/wpLogo.webp"} width={40} height={40} />
+      </Link>
       <div className="ltn__slider-area ltn__slider-3 section-bg-2">
         <HeroSectionStyleThree data={sliderData} />
       </div>
