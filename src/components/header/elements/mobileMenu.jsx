@@ -82,7 +82,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
               </li>
             </ul>
           </div>
-          <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
+          {/* <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
             <ul>
               <li>
                 <Link href="/my-account" title="My Account">
@@ -119,7 +119,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="ltn__social-media-2">
             <ul>
               <li>
