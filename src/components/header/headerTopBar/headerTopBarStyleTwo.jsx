@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HeaderTopInfo from "../elements/headerTopInfo";
 import HeaderSocialLinks from "../elements/headerSocialLinks";
-import LanguageDropDown from "../elements/languageDropdown";
+import LanguageDropDown from "../elements/languageDropDown";
 
 const HeaderTopBarTwo = function () {
   return (

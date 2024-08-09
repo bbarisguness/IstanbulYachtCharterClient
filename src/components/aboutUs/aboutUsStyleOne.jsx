@@ -79,7 +79,7 @@ function AboutUsStyleOne({ sectionSpace, data }) {
                   style={{ overflow: "hidden" }}
                 >
                   {data.content.map((item, key) => (
-                    <p style={{ overflowWrap: "break-word" }}>
+                    <p key={key} style={{ overflowWrap: "break-word" }}>
                       {item}
                     </p>
                   ))}
